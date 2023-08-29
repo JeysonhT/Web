@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Imagenes/gear5.jpeg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    margin-top: 0;
+    background-color: #e5c3faa7;
+    border: groove;
+    width: 100%;
+    border-color: black;
+    border-radius: 10px;
+}
+
+nav{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px solid 5%;
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+}
+
+.lista li{
+    display: inline;
+    width: min-content;
+    margin-right: 10px;
+}
+
+.lista li:last-child{ 
+    margin-right: 0;
+}
+
+article{
+    width: 58%;
+    display: flex;
+    background-color: #f1f0afc0;
+    border: groove;
+    margin: 1px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+aside{
+    margin: 1px;
+    width: 40%;
+    background-color: #f1f0afc0;
+    display: flex;
+    border: groove;
+    border-radius: 10px;
+    border-color: black;
+}
+
+footer{
+    background-color: #e5c3faa7;
+    width: 100%;
+    border: solid black;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+#sesion{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+#sesion h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #007bff;
+}
+
+#sesion input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    padding: 5xp;
+    margin-bottom: 10px;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+}
+
+#sesion button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sesion button:hover{
+    background-color: #0056b3;
+}
+
+@media(max-width: 480px){
+    #sesion{
+        width: 80%;
+    }
+}
+
